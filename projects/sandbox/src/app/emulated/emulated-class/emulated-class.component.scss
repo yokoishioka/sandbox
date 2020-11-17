@@ -1,0 +1,7 @@
+.title {
+    color: palegreen;
+
+    &::before {
+        content: 'Child (emulated) w/ class CSS'
+    }
+}

@@ -1,0 +1,7 @@
+.title {
+    color: peru;
+
+    &::before {
+        content: 'Parent (shadow) w/ class CSS'
+    }
+}

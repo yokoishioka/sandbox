@@ -1,0 +1,32 @@
+body {
+    background: #222;
+    font-family: Helvetica, Arial, sans-serif;
+    color: silver;
+    padding: 3rem;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1rem;
+    outline: 0;
+}
+.section {
+    border: 1px solid silver;
+    padding: 0 2rem;
+    margin: 2rem;
+}
+
+.title {
+    color: gray;
+    font-size: 2rem;
+
+    &::before {
+        content: 'Index (none) w/ class CSS';
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+.active {
+    background: gray;
+}

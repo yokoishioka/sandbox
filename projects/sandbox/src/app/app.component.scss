@@ -1,0 +1,11 @@
+.title {
+    color: cadetblue;
+
+    &::before {
+        content: 'App (emulated) w/ class CSS'
+    }
+}
+
+.active {
+    background: cadetblue;
+}
